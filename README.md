@@ -48,7 +48,6 @@ html, body{
 ```javascript
 var app = angular.module('friendsList', ['ngRoute']);
 ```
-
 ###Step 3: Revamp Folder Structure
 * As we talked about in the lesson, Angular can dynamically change the template or controller based on what the URL is. For example, if we're at '/users' we can tell Angular to use the 'userController' controller as well as the 'userTemplate' html sheet (or view). 
 * As you can imagine your app starts to get really large as you have different routes. The Angular community has found that the best way to organize your application is by feature. For example, in our app we're going to have a home page, a products page, and a settings page. Go ahead and create those three folders. Once you've created those folder makes your file structure looks like this.
